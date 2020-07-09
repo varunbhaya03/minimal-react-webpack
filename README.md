@@ -1,4 +1,4 @@
-# Minimal webpack structure combining react library
+<p align="center">Minimal webpack structure combining react library</p>
 
 The goal of the repository is to create a production ready react app without the use of create-react-app repository that can be used on multiple projects.
 
