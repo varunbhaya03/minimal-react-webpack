@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'poppins';
+  src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-color: darkblue;
-  color: white;
+  background-color: lightblue;
+  font-family: 'poppins';
 }

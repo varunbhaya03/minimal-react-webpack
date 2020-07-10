@@ -1,6 +1,6 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: darkblue;
-  color: white;
-}
+@font-face{font-family:'poppins';src:url(b1c32aa57ad5bc9998dddd0131296064.ttf)}body{margin:0;padding:0;background-color:yellow;font-family:'poppins'}
+
+.app{color:red}
+
+
+/*# sourceMappingURL=main.css.map*/

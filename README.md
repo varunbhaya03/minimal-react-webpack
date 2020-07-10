@@ -1,6 +1,6 @@
-<h1 align="center">Minimal webpack structure combining react library</h1>
+<h1 align="center"> Minimal webpack structure (React App) </h1>
 
-The goal of the repository is to create a production ready react app without the use of create-react-app repository that can be used on multiple projects.
+The goal is to create a production ready react app without the use of create-react-app that can be used on multiple projects.
 
 ## To avoid the hassle that occurs with create-react-app that is:
 1. Setting environment varibales everytime
