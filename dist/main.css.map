@@ -1,1 +1,0 @@
-{"version":3,"file":"main.css","sources":["webpack:///./src/index.css","webpack:///./src/app.scss"],"sourcesContent":["@font-face{font-family:'poppins';src:url(b1c32aa57ad5bc9998dddd0131296064.ttf)}body{margin:0;padding:0;background-color:yellow;font-family:'poppins'}\n",".app{color:red}\n"],"mappings":"AAAA;;ACAA;;","sourceRoot":""}
