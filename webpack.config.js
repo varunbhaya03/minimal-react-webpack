@@ -2,6 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const ErrorOverlayPlugin = require('error-overlay-webpack-plugin')
+const Dotenv = require('dotenv-webpack');
 
 const config = (env) => {
 
@@ -53,7 +54,11 @@ const config = (env) => {
       new MiniCssExtractPlugin({
         filename: '[name].css'
       }),
-      new ErrorOverlayPlugin()
+      new ErrorOverlayPlugin(),
+      new Dotenv({
+        path: `./.env.${env}`,
+        allowEmptyValues: true
+      })
     ],
     devtool: 'cheap-module-source-map'
   }
